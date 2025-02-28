@@ -4,8 +4,26 @@ header{
 }
 
 h1 {font-size:1.7em;
-    font-weight:normal;
+    font-family:"Edu Tas Beginner", sans serif;
 }
 main{
     background-image: url("./img/cork.png");
+}
+.card{
+    width: 16rem;
+    position: relative;
+}
+.pin{
+    position: absolute;
+    top: 0;
+    right: 50%;
+}
+.card-text{
+    color: grey;
+    font-family: "Sometype Mono" ,"monospace";
+    font-size: 10px;
+}
+.title-img{
+    font-family:"Edu Tas Beginner", sans serif;
+    font-weight: bold;
 }
