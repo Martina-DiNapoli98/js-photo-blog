@@ -9,7 +9,8 @@ h1 {font-size:1.7em;
 main{
     background-image: url("./img/cork.png");
 }
-.card{
+.cards{
+    background-color: white;
     width: 16rem;
     position: relative;
 }
