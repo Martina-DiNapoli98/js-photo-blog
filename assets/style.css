@@ -1,0 +1,11 @@
+header{
+    background-image:url("./img/wall.png");
+    height: 100px ;
+}
+
+h1 {font-size:1.7em;
+    font-weight:normal;
+}
+main{
+    background-image: url("./img/cork.png");
+}
