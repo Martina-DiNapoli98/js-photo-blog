@@ -16,7 +16,7 @@ fetch(cardsUrlEndpoint)
 
   function renderCards(cards){
     let markup = `
-                 <div class="col-12 col-md-6 col-xl-4 my-2 d-flex justify-content-center">
+                 <div class="col-12 col-md-6 col-xl-4 my-4 d-flex justify-content-center">
                     <div class="cards p-3">
                         <img src="${cards.url}" class="card-img-top" alt="" width="100px" height="200px">
                         <img src="./assets/img/pin.svg" alt="" width="20px" class="pin">
