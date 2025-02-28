@@ -23,8 +23,12 @@ main{
     color: grey;
     font-family: "Sometype Mono" ,"monospace";
     font-size: 10px;
+    padding-top: 2px;
 }
 .title-img{
     font-family:"Edu Tas Beginner", sans serif;
     font-weight: bold;
+    text-transform: uppercase;
 }
+
+
