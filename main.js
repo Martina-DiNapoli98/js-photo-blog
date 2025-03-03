@@ -1,6 +1,7 @@
 const cardEl = document.querySelector('.container .row');
 const cardsUrlEndpoint = 'https://lanciweb.github.io/demo/api/pictures/';
 const overlayEl = document.querySelector(".overlay");
+const overlayImage = overlayEl.querySelector('img')
 
 
 fetch(cardsUrlEndpoint)
@@ -42,7 +43,8 @@ fetch(cardsUrlEndpoint)
     cardPhotos.forEach(cardPhoto => {
       cardPhoto.addEventListener('click', function() {
         overlayEl.classList.remove("display-none");
-        console.log(cardPhoto);
+        overlayImage.src = cardPhoto.src;
+        
       });
     });
 
