@@ -17,6 +17,9 @@ main{
     width: 16rem;
     position: relative;
 }
+.cards:hover{
+    cursor: pointer;
+}
 .pin{
     position: absolute;
     top: 0;
@@ -57,13 +60,12 @@ main{
     background-color: white;
     color: black;
     border: none;
-    padding: 10px 20px;
     cursor: pointer;
-    border-radius: 5px;
 }
 .display-none{
     display: none;
 }
+
 
 
 
