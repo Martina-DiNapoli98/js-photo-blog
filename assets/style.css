@@ -34,7 +34,7 @@ main{
     text-transform: uppercase;
 }
 .overlay {
-    display: none;
+    
     position: fixed;
     top: 0;
     left: 0;
@@ -48,16 +48,14 @@ main{
 
 .overlay-content {
     background: white;
-    padding: 20px;
     border-radius: 8px;
     text-align: center;
-    width: 80%;
-    max-width: 500px;
+    max-width: 100px;
 }
 
 .overlay button {
-    background-color: #4CAF50;
-    color: white;
+    background-color: white;
+    color: black;
     border: none;
     padding: 10px 20px;
     cursor: pointer;

@@ -8,7 +8,7 @@ fetch(cardsUrlEndpoint)
   .then(cards => {
     console.log(cards);
 
-    // Funzione per generare le card
+  
     function renderCards(card) {
       let markup = `
         <div class="col-12 col-md-6 col-xl-4 my-4 d-flex justify-content-center">
@@ -29,16 +29,16 @@ fetch(cardsUrlEndpoint)
       return markup;
     }
 
-    // Aggiungi tutte le card al DOM
+   
     cards.forEach(card => {
       let markup = renderCards(card);
       cardEl.insertAdjacentHTML('beforeend', markup);
     });
 
-    // Dopo che tutte le card sono aggiunte, seleziona tutte le immagini
+   
     const cardPhotos = document.querySelectorAll('.card-img-top');
 
-    // Aggiungi l'event listener su ogni immagine
+    
     cardPhotos.forEach(cardPhoto => {
       cardPhoto.addEventListener('click', function() {
         overlayEl.classList.remove("display-none");
